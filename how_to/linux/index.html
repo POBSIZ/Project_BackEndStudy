@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>How To Install Ubuntu & Django</title>
+</head>
+<body>
+    <div class="container">
+
+        <a href="https://github.com/POBSIZ/Project_BackEndStudy">
+            <div class="home"></div>
+        </a>
+
+        <div class="header">
+            <span class="title">📖How To Install Ubuntu & Django📖</span>
+        </div>
+
+        <ul class="howto__list">
+
+            <li class="howto__list--item">
+                <span class="list--item--title">0. Ubuntu iso 다운로드</span>
+                <div class="list--item--img" style="background: url(./src/img/0.PNG);"></div>
+                <span class="list--item--text">
+                    <a href="https://ubuntu.com/download/desktop" target="_blank" style="font-size: 20px; font-weight: 600;">
+                        Ubuntu 공식 사이트 바로가기
+                    </a>
+                    링크로 들어간후 iso 파일 다운
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <span class="list--item--title">1. VMware 설치</span>
+                <div class="list--item--img" style="background: url(./src/img/1.PNG);"></div>
+                <span class="list--item--text">
+                    이
+                    <a href="https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html" target="_blank" style="font-size: 20px; font-weight: 600;">
+                        VMware 사이트 바로가기
+                    </a>
+                    링크로 들어간후 각자 OS에 맞게 다운후 설치
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/2.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">ctrl+n</span> 눌러 창을 띄우고 전에 다운 해둔 iso 파일 경로 지정 
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/3.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    Full name, user name, password 등을 자신의 기호대로 설정
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/4.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    이름을 자신의 기호대로 설정후 가상환경 설치 경로 지정
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/5.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    원하는 만큼 용량 지정
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/6.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">Customize Hardware</span> 클릭
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/7.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    위의 화면과 동일하게 하드웨어 세팅 (나머지는 삭제)
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/8.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    세팅을 끝내고 Finish 클릭후 우분투가 설치 되기까지 기다리기
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/9.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    위 사진과 같이 나온다면 설치 성공
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/10.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    Skip 클릭
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/11.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    No 선택
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/12.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    위의 Settings 클릭하여 각자 취향에 맞춰 디스플레이 크기 및 설정 바꾸기 (선택사항)
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <span class="list--item--title">2. Visual Studio Code 설치</span>
+                <div class="list--item--img" style="background: url(./src/img/13.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    왼쪽 탭의 파이어폭스 브라우저 접속후 <span class="highlight">Visual Studio Code</span> 검색
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/14.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    공식 사이트 접속후 <span class="highlight">.deb</span> 파일 다운
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/15.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    설치후 폴더에 들어가 <span class="highlight">Downloads</span> 폴더에 들어간다
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/16.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    다운한 파일 실행
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/17.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">Install</span> 클릭
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/18.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    왼쪽 아래 어플 탭에 들어가서 설치 되있는지 확인
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/19.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    VScode에 들어간후 Extensions 설치 <br>
+                    <span class="highlight">
+                        - Django 1.3.0 <br>
+                        - Django Template <br>
+                        - Django Snippets <br>
+                    </span>
+
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/20.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">
+                        - python <br>
+                    </span>
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <span class="list--item--title">3. Python, Django 설치 및 세팅</span>
+                <div class="list--item--img" style="background: url(./src/img/21.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">ctrl + alt + t</span>
+                    를 눌러서 터미널을 연 후 <br>
+                    <span class="highlight">sudo apt install python3</span> 입력 <br>
+                    비밀번호 입력
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/23.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">mkdir venvs</span> 를 입력하여 venvs 폴더 생성 <br>
+                    <span class="highlight">cd venvs</span> 만든 폴더로 이동 <br>
+                    <span class="highlight">sudo apt install python3-venv</span> 입력 <br>
+                    비밀번호 입력
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/24.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">python3 -m venv "원하는 venv 명"</span> 입력 <br>
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/25.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">home/venvs/"위에서 지정한 venv 명"/bin</span> 으로 폴더를 열어서 우클릭하여 <br>
+                    <span class="highlight">Open In Terminal</span> 클릭
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/26.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">source activate</span> 입력하여 가상 파이썬 환경 활성화 <br>
+                    입력구간 맨 앞쪽에 자신이 지정한 venv 명이 괄호 쳐져 나와지면 성공 <br>
+                    이 이후의 과정을 따라하기 위해선 계속 활성화가 유지 되어야 함
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/27.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">pip install django==3.1.3</span> 입력하여 장고 설치<br>
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/28.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    오류가 났을시 <span class="highlight">python3 pip install --upgrade pip</span> 입력 후<br>
+                    위 명령어 재입력
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <span class="list--item--title">4. 장고 프로젝트 파일 생성 및 세팅</span>
+                <div class="list--item--img" style="background: url(./src/img/29.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">cd</span> 를 입력하여 최상위 폴더로 이동 <br>
+                    <span class="highlight">mkdir projects</span> 을 입력하여 프로젝트 폴더 생성 <br>
+                    <span class="highlight">cd projects</span> 를 입력하여 프로젝트 폴더로 이동 <br>
+                    <span class="highlight">mkdir "원하는 프로젝트 파일명"</span> 을 입력하여 폴더 생성 <br>
+                    <span class="highlight">cd "입력한 프로젝트 파일명"</span> 을 입력하여 폴더로 이동 <br>
+                    <span class="highlight">django-admin startproject config .</span> 을 입력하여 기본 프로젝트 파일 구성 생성 <br>
+                    
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/30.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    파일을 생성한 경로에 위와 같이 파일이 생성 되있으면 성공 
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/31.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    <span class="highlight">python3 manage.py runserver</span> 를 입력하여 서버를 실행 <br>
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/32.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    명령어 입력후 나오는 아이피 주소로 접속 <br>
+                    (지금 당장은 빨간색으로 뜬 오류를 무시해도 된다)
+                </span>
+            </li>
+
+            <li class="howto__list--item">
+                <!-- <span class="list--item--title">1. VMware 설치</span> -->
+                <div class="list--item--img" style="background: url(./src/img/33.PNG); width: 40vw;"></div>
+                <span class="list--item--text">
+                    위와 같이 접속이 된다면 장고 설치가 완료 되었습니다.
+                </span>
+            </li>
+
+        </ul>
+        <div class="footer">
+            <div class="foot__info">
+                <span class="foot__info--title">🎉축하합니다!🎉</span><br>
+                <span class="foot__info--text">Ubuntu 와 Django 설치 및 기본 세팅을 끝내셨습니다!</span><br>
+                <span class="foot__info--author">Made by Won</span>
+            </div>
+            <a style="text-decoration:none;" href="https://github.com/POBSIZ/Project_BackEndStudy">메인 화면으로 돌아가기</a>
+        </div>
+
+        <li class="howto__list--item">
+            <span class="list--item--text">
+                참고하기 좋은 사이트 <br>
+                <a style="text-decoration:none;" href="https://github.com/POBSIZ/Project_BackEndStudy">
+                    - 우분투 한글패치
+                </a><br>
+                <a style="text-decoration:none;" href="https://github.com/POBSIZ/Project_BackEndStudy">
+                    - 오류가 났을시
+                </a><br>
+            </span>
+        </li>
+
+    </div>
+</body>
+</html>

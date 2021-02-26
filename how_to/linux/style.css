@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'GmarketSansMedium';
+    transition: .3s;
+}
+
+a{text-decoration: underline; color: rgb(80, 150, 255);}
+a:hover{color: rgb(99, 99, 99);}
+
+.container{}
+
+
+.home{
+    position: fixed;
+    z-index: 100;
+
+    background: url(./src/ico/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 50px;
+    height: 50px;
+
+    left: 50px;
+}
+
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.title{
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.howto__list{
+    padding: 0;
+    display: block;
+    margin: auto;
+    list-style: none;
+}
+
+.howto__list--item{
+    position: relative;
+    height: auto;
+}
+
+.list--item--title{
+    margin-left: 20px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.list--item--text{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgba(133, 133, 133, 0.521);
+    border-radius: 44px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.highlight{color: coral;}
+
+.list--item--text a{
+  text-decoration:none;
+}
+
+.list--item--img{
+    display: block;
+    margin: auto;
+    width: 60vw;
+    height: 30vw;
+
+    background-size: 80% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}.small{background-size: 80% !important;}
+
+
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+.foot__info{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.foot__info--title{
+    font-size: 50px;
+    font-weight: bold;
+}
