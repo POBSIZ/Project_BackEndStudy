@@ -33,11 +33,11 @@
 ---
 ## 🙋 VMware, Ubuntu, Django 설치 방법
 
-- 깃 허브가 처음이신 분들을 위한 [튜토리얼](https://pobsiz.github.io/Project_BackEndStudy/how_to/linux/index.html) 입니다. (모바일에선 비율이 깨집니다.)
+- VMware, Ubuntu, Django 가 처음이신 분들을 위한 [튜토리얼](https://pobsiz.github.io/Project_BackEndStudy/how_to/linux/index.html) 입니다.
 ---
 ## 🙋 깃허브 올리는 방법
 
-- 깃 허브가 처음이신 분들을 위한 [튜토리얼](https://pobsiz.github.io/Project_BackEndStudy/how_to/github/index.html) 입니다. (모바일에선 비율이 깨집니다.)
+- 깃 허브가 처음이신 분들을 위한 [튜토리얼](https://pobsiz.github.io/Project_BackEndStudy/how_to/github/index.html) 입니다.
 ---
 ## :file_folder: 폴더 설명
 - files : 스터디에 대해 설명하는 파일들이 있는 폴더
